@@ -1,0 +1,32 @@
+body {
+	background-color: silver;
+	color:white;
+	padding:20px;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+	color: #64645a;
+	background-color: #ffffff;
+	padding: inherit;
+}
+
+
+p {
+	padding: 5px;
+	margin: 0px;
+}
+p.p1 {background-color: rgb(238,62,129);}
+p.p2 {background-color: rgb(244,90,139);}
+p.p3 {background-color: rgb(243,106,152);}
+p.p4 {background-color: rgb();}
+p.p5 {background-color: rgb();}
+p.p6 {background-color: rgb();}
+p.p7 {background-color: rgb();}
+p.p8 {background-color: rgb();}
+p.p9 {background-color: rgb();}
+p.p10 {background-color: rgb();}
+p.p11 {background-color: rgb();}
+p.p12 {background-color: rgb();}
+p.p13 {background-color: rgb();}
+p.p14 {background-color: rgb();}

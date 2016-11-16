@@ -1,0 +1,29 @@
+
+
+
+div {
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    border-color: #6495ED;
+    background-color: #BCD2EE;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    }
+a {
+    text-decoration: none;
+    color: grey;
+    }
+
+.class_syntax {}
+/* Makes a circle */
+#id_syntax {
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border-radius: 100%
+    border-color: #33ff33;
+    border-radius: 100%;
+}

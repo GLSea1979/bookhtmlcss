@@ -1,0 +1,73 @@
+<html>
+
+<head></head>
+<body>
+	<form action="http://example.com" method="get">
+		<p>This is where form controls will appear.</p>
+		<p>Username:
+			<input type="text" name="username" size="15" maxlength="30"/>
+
+			</p>
+		<p>Please select your favorite genre of music:
+			<br>
+			<input type="radio" name="genre" value="rock" checked="checked" />Rock
+			<input type="radio" name="genre" value="jazz" checked="checked" />Jazz
+			<input type="radio" name="genre" value="pop" checked="checked" />Pop
+		</p>
+		<p>Please select you favorite music service:
+			<br>
+			<input type="checkbox" name="service" value="iTunes" checked="checked" /> iTunes
+			<input type="checkbox" name="service" value="lastFM" checked="checked" /> Last.fm
+			<input type="checkbox" name="service" value="spotify" checked="checked" /> Spotify
+		</p>
+		<p>What device do you listen to music on?</p>
+			<select name="devices">
+				<option value="iPod">iPod</option>
+				<option value="radio">Radio</option>
+				<option value="Computer">Computer</option>
+				<option value="Turntable">Turntable<option>
+			</select>
+		<p>Do you play any of these instruments? (You can select more than one option by holding down control on a PC or command key on a Mac while selecing different options.)</p>
+		<select name="instruments" size="3" multiple="multiple">
+			<option value="guitar" selected="selected">Guitar</option>
+			<option value="drums" selected="selected">Drums</option>
+			<option value="keyboard" selected="selected">Keyboard</option>
+			<option value="bass" selected="selected">Bass</option>
+		</select>
+		<p>Upload your song in MP3 format:</p>
+		<input type="file" name="user-song"/><br />
+		<input type="submit" value="Upload"/>
+		<p>Subscribe to our email list:</p>
+			<imput type="text" name="email"/>
+			<input type="submit" name="subscribe" value="We will call you"/>
+		<br/>
+		<label>Age: <input type="text" name="age" /></label>
+		<br/>
+		<input id="female" type="radio" name="gender" value="f">
+		<label for="female">Female</label>
+		<input id="male" type="radio" name="gender" value="m">
+		<label for="male">Male</label>
+		<br/>
+		<fieldset>
+			<legend>Contact info</legend>
+			<label>Email:<br/>
+				<input type="text" name="email" /></label><br/>
+			<label>Phone:<br/>
+				<input type="text" name="phone" /></label><br/>
+			<label>Mobile:<br/>
+				<input type="text" name="mobile" /></label>
+		</fieldset>
+		<label for="depart">Departure Date:</label>
+			<input type="date" name="depart" />
+			<input type="submit" value="submit" /><br/>
+		<label for="username">Username</label>
+			<input type="text" name="username" required="required"/ placeholder="your id"><br/>
+		<label for="password">Password></label>
+			<input type="password" name="password" required="required"/>
+		<input type="submit" value="Submit" />
+	</form>
+
+
+
+</body>
+</html>
